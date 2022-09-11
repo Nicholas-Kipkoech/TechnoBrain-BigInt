@@ -13,6 +13,7 @@ namespace Exercise01
 
         public static string ConvertToWords(BigInteger value)
         {
+            //maps===>storing in keys
             string[] uniqueDigits = new string[] {
                 "zero", "one", "two", "three", "four",
                 "five", "six", "seven", "eight", "nine",
